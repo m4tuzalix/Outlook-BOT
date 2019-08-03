@@ -73,13 +73,4 @@ def give_strike(ticket,data):
     con.commit()
     con.close()
     return send
-    
-                
-    
-
-            
-            
-
-    con.commit()
-    con.close()
 main()
