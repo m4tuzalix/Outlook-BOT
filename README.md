@@ -1,7 +1,7 @@
 # Outlook-BOT
 Bot to send emails and reminders
 
-I have created this bot to automatize daily, monotonous process of sending emails and reminders to users (I worked on 2nd support line).
+I have created this bot to automatize daily, monotonous process of sending emails and reminders to users (I'm working on 2nd support line).
 
 
 1. Bot sends email to given user (email address, name, id, other things associated with particular person - data is taken straight from exchange)
@@ -11,7 +11,7 @@ I have created this bot to automatize daily, monotonous process of sending email
   - At least two days between reminders have passed (if not, then reminder won't be send and bot will throw a message)
   - User has answered on reminder (Basing on unread mails with INCIDENT number in it. If user answers, then reminders are reset to 0)
 
-As a second line engineer, I was documenting resolved incidents in excel file and also included this part in my bot. At the first use
+As a second line engineer, I'm documenting resolved incidents in excel file and also included this part in my bot. At the first use
 bot asks for path to folder where excel files are stored.
 
 4. According to above, bot always picks the latest created file (sorted by date) and iterates thru all available rows/columns.
